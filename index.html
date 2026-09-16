@@ -149,7 +149,28 @@ td:last-child{
 table a{
     text-decoration:none;
 }
+.reference-table{
+    width:100%;
+    table-layout:fixed;
+}
 
+.reference-table th:first-child,
+.reference-table td:first-child{
+    width:60%;
+    white-space:normal;
+    word-break:normal;
+    overflow-wrap:break-word;
+    text-align:left;
+}
+
+.reference-table th:last-child,
+.reference-table td:last-child{
+    width:40%;
+    white-space:normal;
+    word-break:normal;
+    overflow-wrap:break-word;
+    text-align:left;
+}
 footer{
     text-align:center;
     padding:25px;
